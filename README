@@ -4,9 +4,11 @@ to execute these algorithm in multiple nodes located in the same machine or
 distributed across different machines. 
 
 Each node offers an execution context for one or more algorithm and the application 
-that uses it to achieve some task. This context allows one algorithm exchange 
-messages with instances of the same algorithm in other nodes.
+that uses them. This context allows each algorithm exchange  messages with instances 
+of the same algorithm in other nodes.
  
 Each algorithm implements one or more interfaces that defines its function 
 (for example, leader election) which can be used by the application or other 
-algorithms. 
+algorithms.
+
+ 
